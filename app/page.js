@@ -19,11 +19,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-between ">
       {/* Main container */}
-      <main className="flex flex-col items-center justify-center p-4 my-30">
+      <main className="flex flex-col items-center justify-center p-4 my-15">
         <div className="max-w-md w-full bg-white shadow-xl rounded-lg p-6">
-          <h1 className="text-2xl font-bold mb-4 text-center text-blue-700">Zippy</h1>
+          <h1 className="text-2xl font-bold mb-4 text-center text-blue-700">Zippy –
+             TikTok Video Downloader (No Watermark)</h1>
           <p className="text-sm text-gray-600 mb-4 text-center">
-            Paste any TikTok video URL below to download it without watermark. 100% free and fast.
+           Easily download TikTok videos online, free and watermark-free.
+            Just paste the TikTok link and download instantly.
           </p>
 
           <input
