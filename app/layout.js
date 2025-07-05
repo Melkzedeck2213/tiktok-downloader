@@ -26,7 +26,7 @@ export const metadata = {
     title: "Zippy - TikTok Video Downloader",
     description:
       "Download TikTok videos with no watermark. Instant, free, and clean.",
-    url: "https://your-vercel-domain.vercel.app", // Replace this
+    url: "https://zippy-tiktok-video-downloader-umber.vercel.app/", // Replace this
     siteName: "Zippy",
     icons: {
       icon: "/zippy.ico",
@@ -47,6 +47,9 @@ export default function RootLayout({ children }) {
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content="Zippy" />
           <meta name="twitter:card" content="summary_large_image" />
+
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5529609142855568"
+     crossorigin="anonymous"></script>
         </head>
       
       <body
